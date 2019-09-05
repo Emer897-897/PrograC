@@ -17,6 +17,7 @@ class Publicacion(models.Model):
         self.save()
 
     def __str__(self):      #muestra listado de datos como
+
         return self.titulo
 
 # Create your models here.
